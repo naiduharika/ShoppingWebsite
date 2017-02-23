@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shopping Cart</title>
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/site.css" rel="stylesheet" type="text/css">
+</head>
+<body id="cart">
+	<header>
+		<div class="header-container">
+			<nav>
+				<ul>
+					<li><a href="all-products.html" id="homnav">ALL PRODUCTS</a></li>
+					<li><a href="faq.html" id="faqnav">F.A.Q</a></li>
+					<li><a href="contact-us.html" id="connav">CONTACT US</a></li>
+					<li><a href="shopping-cart.html" id="carnav">SHOPPING CART</a></li>
+				</ul>
+			</nav> <a class="top" href="index.html"><span class="logo">Harika's | </span><span class="logo1">BOUTIQUE </span></a>
+			<div class="clearfix"></div>
+		</div>
+	</header>
+	<div class="main-container">
+		<section class="padding-20">
+		<h2>Shopping Cart</h2>
+		<p>Here's what we have ready to go for you.</p>
+
+		<table>
+			<tr>
+				<th class="prod">Product</th>
+				<th>Description</th>
+				<th class="quant">Quantitiy</th>
+				<th class="total">Price</th>
+			</tr>
+
+			<tr>
+				<td><figure><img src="img/dress1.png" alt="Dress"></figure><b>Black and Blue Dress</b></td>
+				<td class="left"><b>Black and Blue Dress.</b>A simple yet elegant dress.<br /><br /> <a href="detailed-product.html" class="btn1">Details</a></td>
+				<td>1</td>
+				<td><b>$39.99</b></td>
+			</tr>
+
+			<tr>
+				<td><figure><img src="img/shoe1.png" alt="Shoes"></figure><b>Black Shoes</b></td>
+				<td class="left"><b>Black Shoes</b> to match the Perfect dress. A Mix of style and comfort.<br /> <br /><a href="detailed-product.html" class="btn1">Details</a></td>
+				<td>1</td>
+				<td><b>$69.99</b></td>
+			</tr>
+
+			<tr>
+				<td><figure><img src="img/clutch.png" alt="Bags"></figure><b>Black Clutch</b></td>
+				<td class="left"><b>Black Clutch</b> to hold your valuables and final touch to complete your look.<br /><br /><a href="detailed-product.html" class="btn1">Details</a></td>
+				<td>1</td>
+				<td><b>$45.95</b></td>
+			</tr>
+
+			<tr>
+				<td class="right" colspan="3"><b>Total:</b></td>
+				<td><b>$155.93</b></td>
+			</tr>
+
+			<tr>
+				<td colspan="2"></td>
+				<td class="checkout" colspan="2"><a href="#" class="btn2">Checkout</a></td>
+			</tr>
+
+		</table>
+
+		<p>Can't wait for your new board? contact us about our express shipping option!</p>
+		</section>
+	</div>
+	<footer>
+		<div class="footer-container">
+			<script>
+				  var dt=new Date(document.lastModified);
+				  document.write("This page was last modified on " + dt.toLocaleString());
+			</script>
+		</div>
+	</footer>
+</body>
+</html>

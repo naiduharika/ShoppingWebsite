@@ -1,0 +1,500 @@
+body{
+	background-color:#f1f1f1;
+	color: #333;
+}
+
+/****************************************/
+/************** CONTAINERS **************/
+/****************************************/
+
+.main-container{
+	width: 100%;
+	max-width:960px;
+	font-size:14px;
+	margin: 0 auto;	
+}
+
+.main-container h2 {
+    color: black;
+    text-decoration: none;
+    clear: both;
+}
+
+.header-container{
+	max-width:960px;
+	padding:20px;
+	margin: 0 auto;
+}
+
+.footer-container{ 
+	width:960px;
+	margin: 0 auto;
+}
+
+.main-container p {
+	width: 100%;
+	clear: both;
+}
+
+p.p2{
+	width: 95%;
+	clear: both;
+}
+
+.faq {
+	width: 95%;
+}
+
+/****************************************/
+/************ NAVIGATION ****************/
+/****************************************/
+
+nav{
+	position: relative;
+	width: 53%;
+	top: auto;
+	display: inline-block;
+	float: right;
+}
+
+
+nav ul {
+	list-style-type: none;
+	background-color: white;
+}
+
+nav ul li {
+	float: left;
+	text-align: center;
+}
+
+nav ul li a {
+	color: #222;
+	width: 105px;
+	height: 18px;
+	margin: 0 0 10px 0;
+	padding: 0px 5px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: normal 12px/18px "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
+}
+
+nav ul li a:hover {
+	background-color: #808080;
+}
+
+body#product a#prodnav,
+body#faq a#faqnav,
+body#contact a#connav,
+body#cart a#carnav {
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #666699;
+}
+
+/****************************************/
+/************** HEADER ******************/
+/****************************************/
+
+header{
+	background-color:white;
+	border-bottom: 1px solid #ddd;
+}
+
+header div a{
+	text-decoration: none;
+}
+
+.top {
+	position: absolute;
+	width: 40%;
+    top: auto;
+    left: auto;
+    margin: 2px;
+    display: inline-block;
+}
+
+.logo{
+    font-size: 2em;
+    color: #000000;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Apple Chancery',cursive;
+}
+.logo1{
+
+    font-size: 2em;
+    color: #808080;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Apple Chancery',cursive; 
+}
+
+/****************************************/
+/***************** DIVS *****************/
+/****************************************/
+
+
+/*Index*/
+
+div.shop {
+	width: 270px;
+	height: 50%;
+    float: left;
+    margin: 10px;
+    display: block;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ffffff;
+}
+
+div.shop p {
+	font-size: 0.85em;
+	text-align: left;
+	width: 90%;
+	height: 100%;
+	padding-left: 10px;
+}
+
+/*All Products*/
+
+div.product {
+	width:130px;
+	height: 30%;
+	float: left;
+	margin: 10px;
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #ffffff;
+}
+
+div.product p{
+	font-size: 0.75em;
+	text-align: left;
+	width: 90%;
+	height: 100%;
+	padding-left: 5px;
+}
+
+div.product a {
+	display: block;
+	text-align: center;
+	background-color: #555555;
+	color: #eeeeee;
+	text-decoration: none;
+	padding: 2.5px;
+}
+
+/*Detailed Products*/
+
+div.Detailed {
+	width: 250px;
+	height: 50%;
+	float: left;
+	margin: 27.5px;
+	display: block;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #ffffff;
+	clear: both;
+}
+
+div.Detailed p {
+	font-size: 0.8em;
+	text-align: left;
+	width: 90%;
+	height: 100%;
+	padding-left: 5px;
+}
+
+div.det{
+	margin-left: 0px;
+	overflow: auto;
+	display: block;
+}
+
+/****************************************/
+/************** IMAGES ******************/
+/****************************************/
+
+/*Index*/
+
+div.shop img {
+	width:100%;
+	height: 50%;
+}
+
+/*All Products*/
+
+div.product img {
+	width: 100%;
+}
+
+/*Detailed Products*/
+
+div.Detailed img {
+	width: 100%;
+}
+
+/*Shipping Cart*/
+
+figure {
+	display: table-cell;
+	margin: 0px auto;
+}
+
+figure img {
+	width: auto;
+	height: auto;
+}
+
+figure p{
+	text-align: center;
+}
+
+/****************************************/
+/************** VIDEO *******************/
+/****************************************/
+
+video {
+	width: 100%;
+	height: auto;
+}
+
+/****************************************/
+/************** iFRAME ******************/
+/****************************************/
+
+iframe {
+	width: 100%;
+	height: 350px; 
+	margin: 0px;
+	border: none;
+	overflow: hidden;
+}
+
+/****************************************/
+/************** TABLES ******************/
+/****************************************/
+
+table {
+	width: auto;
+	height: auto;
+	overflow: auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-spacing: 2px;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+tr, td {
+	text-align: center;
+	padding: 5px;
+}
+
+th {
+    text-align: center;
+    padding: 5px 25px;
+    background-color: #666699;
+    color: white;
+}
+
+.left {
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+/*Detailed Product*/
+th.left1{
+	text-align: center;
+	padding: 5px;
+}
+
+.left1 {
+	text-align: left;
+	padding: 5px;
+}
+
+.add {
+	padding: 5px;
+}
+
+/*Shopping Cart*/
+th.prod{
+	width: auto;
+	padding: 0px;
+}
+
+th.quant{
+	width: 50px;
+	padding: 15px;
+}
+
+th.price{
+	width: 50px;
+	padding: 10px;
+}
+
+.right {
+	text-align: right;
+	padding-right: 7px;
+	padding-top: 5px;
+	padding-bottom: 5px
+}
+
+.checkout {
+	padding: 0px;
+}
+
+/****************************************/
+/************** FOOTER ******************/
+/****************************************/
+
+footer{
+	padding:20px;
+	background-color: #444;
+	color: #ddd;
+	font-size:13px;
+	clear:both;
+}
+
+/****************************************/
+/************** BUTTONS *****************/
+/****************************************/
+
+/*Index*/
+a.btn{
+	background-color: #555;
+	color: #eee;
+	padding: 6px;
+	margin: 4px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.btn:hover{
+	background-color: #666699;	
+}
+
+div.shop a {
+    display: block;
+    text-align: center;
+    background-color: #555555;
+    color:  #eeeeee;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/*All-products*/
+a.btn0{
+	background-color: #555;
+	color: #eee;
+	padding: 6px;
+	margin: 4px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.btn0:hover{
+	background-color: #666699;	
+}
+
+div.product a {
+    display: block;
+    text-align: center;
+    background-color: #555555;
+    color:  #eeeeee;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/*Shopping cart*/
+a.btn1{
+	background-color: #555;
+	color: #eee;
+	padding: 6px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.btn1:hover{
+	background-color: #666699;	
+}
+
+a.btn2{
+	background-color: #29a329;
+	color: #eee;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    display: block;
+	width: 100%;
+	height: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+a.btn2:hover{
+	background-color: #333;	
+}
+
+/*Detail product*/
+a.btn3{
+	background-color: #555;
+	color: #eee;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+a.btn3:hover{
+	background-color: #666699;	
+}
+
+div.Detailed a {
+    display: block;
+    text-align: center;
+    background-color: #555555;
+    color:  #eeeeee;
+    text-decoration: none;
+}
+
+/****************************************/
+/************** UTILITY *****************/
+/****************************************/
+
+.padding-20{
+	padding:20px;
+}
+
+.clearfix{
+	clear:both;
+}
+
+/*All Products*/
+.padding-5 {
+	padding: 5px;
+}
+
+/*detailed product*/
+.padding{
+	padding:10px;
+}
